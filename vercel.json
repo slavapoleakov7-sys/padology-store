@@ -3,14 +3,54 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/ro",
-      "permanent": true
+      "destination": "/ru",
+      "permanent": false
     }
   ],
   "rewrites": [
     {
-      "source": "/((?!images/|assets/|logo|logo_2|hero_image|doctor-image|placeholder|sitemap\\.xml|favicon\\.ico|robots\\.txt).*)",
-      "destination": "/index.html"
+      "source": "/ru",
+      "destination": "/studio-assets/all-studios.html"
+    },
+    {
+      "source": "/ru/",
+      "destination": "/studio-assets/all-studios.html"
+    },
+    {
+      "source": "/buiucani/ru",
+      "destination": "/studio-assets/buiucani.html"
+    },
+    {
+      "source": "/buiucani/ru/",
+      "destination": "/studio-assets/buiucani.html"
+    },
+    {
+      "source": "/center/ru",
+      "destination": "/studio-assets/centru.html"
+    },
+    {
+      "source": "/center/ru/",
+      "destination": "/studio-assets/centru.html"
+    },
+    {
+      "source": "/plus/ru",
+      "destination": "/studio-assets/plus.html"
+    },
+    {
+      "source": "/plus/ru/",
+      "destination": "/studio-assets/plus.html"
+    },
+    {
+      "source": "/centru/ru",
+      "destination": "/studio-assets/centru.html"
+    },
+    {
+      "source": "/podo-plus/ru",
+      "destination": "/studio-assets/plus.html"
+    },
+    {
+      "source": "/((?!studio-assets/|images/|assets/|logo|logo_2|hero_image|doctor-image|placeholder|sitemap\\.xml|favicon\\.ico|robots\\.txt).*)",
+      "destination": "/app-shell.html"
     }
   ]
 }

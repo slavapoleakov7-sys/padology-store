@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/prerender.mjs",
+    "build": "vite build && node scripts/prerender.mjs && node scripts/publish-studio-pages.mjs",
     "build:spa": "vite build",
     "prerender": "node scripts/prerender.mjs",
     "build:dev": "vite build --mode development",
@@ -54,3 +54,4 @@
     "vite": "^5.4.19"
   }
 }
+
